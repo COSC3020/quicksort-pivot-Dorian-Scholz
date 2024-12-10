@@ -19,3 +19,7 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+Answer: 
+
+The median of three method for pivot selection in Quicksort examines the first, middle, and last elements of the current array segment and chooses the median value as the pivot. This approach increases the chances of picking a pivot closer to the center of the sorted order, which is more likely to create balanced partitions compared to simply choosing the first element. Since the input array is assumed to be random, selecting the first element as the pivot has an equal probability of being anywhere in the sorted array, making the likelihood of a good pivot around 1/3. In contrast, the median-of-three method reduces the chances of picking extreme values (smallest or largest) and improves the probability of a good pivot to approximately 5/9. This makes the median-of-three method more effective at maintaining balanced partitions and improving Quicksort’s performance.

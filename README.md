@@ -19,3 +19,5 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+Answer: The median of three method is more likely to give us a "good" pivot than simply picking the first element because it takes into account three elements from different positions in the array rather than relying on just one element. This gives it a higher chance of selecting a pivot that is close to the true median of the entire array.
